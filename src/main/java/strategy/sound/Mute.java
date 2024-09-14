@@ -1,8 +1,8 @@
 package strategy.sound;
 
-import interfaces.ISoundBehavior;
+import interfaces.ISound;
 
-public class Mute implements ISoundBehavior {
+public class Mute implements ISound {
     @Override
     public void makeSound() {
         System.out.println("Mute...");

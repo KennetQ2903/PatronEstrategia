@@ -1,8 +1,8 @@
 package strategy.swim;
 
-import interfaces.ISwimBehavior;
+import interfaces.ISwim;
 
-public class SwimmingWithWebbedFeet implements ISwimBehavior {
+public class SwimmingWithWebbedFeet implements ISwim {
     @Override
     public void swim() {
         System.out.println("Swimming with Webbed Feet");

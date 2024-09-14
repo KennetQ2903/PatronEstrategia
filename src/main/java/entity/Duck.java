@@ -1,17 +1,17 @@
 package entity;
 
-import interfaces.IFlyBehavior;
-import interfaces.ISoundBehavior;
-import interfaces.ISwimBehavior;
+import interfaces.IFly;
+import interfaces.ISound;
+import interfaces.ISwim;
 
 public abstract class Duck {
     public Duck() {
     }
 
     // Actions
-    protected IFlyBehavior fb;
-    protected ISoundBehavior sb;
-    protected ISwimBehavior swb;
+    protected IFly fb;
+    protected ISound sb;
+    protected ISwim swb;
 
     public abstract void display();
 
@@ -26,6 +26,17 @@ public abstract class Duck {
 
     public void makeSound() {
         sb.makeSound();
+    }
+
+    public void setFlybehavior(IFly fb) {
+        this.fb = fb;
+    }
+
+    public void setSoundBehavior(ISound sb) {
+        this.sb = sb;
+    }
+    public void setSwimBehavior(ISwim swb) {
+        this.swb = swb;
     }
 
 

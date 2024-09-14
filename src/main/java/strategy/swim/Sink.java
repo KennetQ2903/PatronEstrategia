@@ -1,8 +1,8 @@
 package strategy.swim;
 
-import interfaces.ISwimBehavior;
+import interfaces.ISwim;
 
-public class Sink implements ISwimBehavior {
+public class Sink implements ISwim {
     @Override
     public void swim() {
         System.out.println("Sinks...");

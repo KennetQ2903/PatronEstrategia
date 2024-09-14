@@ -1,5 +1,5 @@
 package interfaces;
 
-public interface IFlyBehavior {
+public interface IFly {
     public abstract void fly();
 }

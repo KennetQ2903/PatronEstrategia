@@ -1,8 +1,8 @@
 package strategy.sound;
 
-import interfaces.ISoundBehavior;
+import interfaces.ISound;
 
-public class Quack implements ISoundBehavior {
+public class Quack implements ISound {
     @Override
     public void makeSound() {
         System.out.println("Quack!");

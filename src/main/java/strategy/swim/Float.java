@@ -1,8 +1,8 @@
 package strategy.swim;
 
-import interfaces.ISwimBehavior;
+import interfaces.ISwim;
 
-public class Float implements ISwimBehavior {
+public class Float implements ISwim {
     @Override
     public void swim() {
         System.out.println("Just float...");

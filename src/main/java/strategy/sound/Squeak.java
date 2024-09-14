@@ -1,8 +1,8 @@
 package strategy.sound;
 
-import interfaces.ISoundBehavior;
+import interfaces.ISound;
 
-public class Squeak implements ISoundBehavior {
+public class Squeak implements ISound {
     @Override
     public void makeSound() {
         System.out.println("Squeak!");

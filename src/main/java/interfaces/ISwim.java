@@ -1,5 +1,5 @@
 package interfaces;
 
-public interface ISwimBehavior {
+public interface ISwim {
     public abstract void swim();
 }
